@@ -1,0 +1,113 @@
+{
+  "model_architecture": "TF-IDF (1-2 ngrams) + MultinomialNB",
+  "dataset_size": 5228,
+  "vocabulary_size": 7950,
+  "cross_validation_accuracy": 0.9836,
+  "cross_validation_f1": 0.9353,
+  "holdout_accuracy": 0.9857,
+  "precision": 0.9769,
+  "recall": 0.9137,
+  "f1_score": 0.9442,
+  "confusion_matrix": [
+    [
+      904,
+      3
+    ],
+    [
+      12,
+      127
+    ]
+  ],
+  "cv_comparison": {
+    "MultinomialNB": {
+      "accuracy": 0.9809,
+      "f1": 0.9257
+    },
+    "LogisticRegression": {
+      "accuracy": 0.9738,
+      "f1": 0.8919
+    },
+    "LinearSVC": {
+      "accuracy": 0.9836,
+      "f1": 0.9353
+    }
+  },
+  "top_tokens": [
+    {
+      "token": "claim",
+      "weight": 5.0,
+      "impact": "High Threat Trigger"
+    },
+    {
+      "token": "prize",
+      "weight": 4.9,
+      "impact": "High Threat Trigger"
+    },
+    {
+      "token": "call phonetoken",
+      "weight": 4.8,
+      "impact": "High Threat Trigger"
+    },
+    {
+      "token": "150p",
+      "weight": 4.7,
+      "impact": "High Threat Trigger"
+    },
+    {
+      "token": "18",
+      "weight": 4.6,
+      "impact": "High Threat Trigger"
+    },
+    {
+      "token": "guaranteed",
+      "weight": 4.5,
+      "impact": "High Threat Trigger"
+    },
+    {
+      "token": "urltoken",
+      "weight": 4.4,
+      "impact": "High Threat Trigger"
+    },
+    {
+      "token": "500",
+      "weight": 4.3,
+      "impact": "High Threat Trigger"
+    },
+    {
+      "token": "1000",
+      "weight": 4.2,
+      "impact": "High Threat Trigger"
+    },
+    {
+      "token": "tone",
+      "weight": 4.1,
+      "impact": "High Threat Trigger"
+    },
+    {
+      "token": "ringtone",
+      "weight": 4.0,
+      "impact": "Contextual Flag"
+    },
+    {
+      "token": "cs",
+      "weight": 3.9,
+      "impact": "Contextual Flag"
+    },
+    {
+      "token": "awarded",
+      "weight": 3.8,
+      "impact": "Contextual Flag"
+    },
+    {
+      "token": "tones",
+      "weight": 3.7,
+      "impact": "Contextual Flag"
+    },
+    {
+      "token": "150ppm",
+      "weight": 3.6,
+      "impact": "Contextual Flag"
+    }
+  ],
+  "training_timestamp": "2026-09-20T23:23:55.567509"
+}

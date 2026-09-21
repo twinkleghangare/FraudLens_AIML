@@ -1,0 +1,232 @@
+[
+  {
+    "id": "rec-1789997557900",
+    "type": "qr",
+    "title": "Reverse-Debit 'Scan to Receive' Trap Detected",
+    "preview": "upi://pay?pa=olx-advance-agent@okaxis&pn=ArmyOfficerBuyer&am=12000.00&cu=INR&tn=...",
+    "riskScore": 99,
+    "classification": "High Risk",
+    "category": "UPI Payment",
+    "timestamp": "2026-09-21T13:32:37.900648"
+  },
+  {
+    "id": "rec-1789997548077",
+    "type": "qr",
+    "title": "Reverse-Debit 'Scan to Receive' Trap Detected",
+    "preview": "upi://pay?pa=rewards-cashback-desk@okhdfcbank&pn=GPayCashbackDept&am=4999.00&cu=...",
+    "riskScore": 99,
+    "classification": "High Risk",
+    "category": "UPI Payment",
+    "timestamp": "2026-09-21T13:32:28.077873"
+  },
+  {
+    "id": "rec-1789997225856",
+    "type": "url",
+    "title": "High-Risk Top-Level Domain (.vip)",
+    "preview": "http://sbi-pan-kyc-verify.vip",
+    "riskScore": 99,
+    "classification": "High Risk",
+    "category": "Phishing / Link",
+    "timestamp": "2026-09-21T13:27:05.856387"
+  },
+  {
+    "id": "rec-1789929789498",
+    "type": "message",
+    "title": "Power Disconnection Scare",
+    "preview": "Dear consumer your electricity power will be disconnected tonight at 9:30 PM fro...",
+    "riskScore": 85,
+    "classification": "High Risk",
+    "category": "Electricity Scam",
+    "timestamp": "2026-09-20T18:43:09.498634"
+  },
+  {
+    "id": "rec-1789929782871",
+    "type": "message",
+    "title": "Power Disconnection Scare",
+    "preview": "Dear consumer your electricity power will be disconnected tonight at 9:30 PM fro...",
+    "riskScore": 85,
+    "classification": "High Risk",
+    "category": "Electricity Scam",
+    "timestamp": "2026-09-20T18:43:02.871076"
+  },
+  {
+    "id": "rec-1789927441393",
+    "type": "message",
+    "title": "Power Disconnection Scare",
+    "preview": "Dear consumer your electricity power will be disconnected tonight at 9:30 PM fro...",
+    "riskScore": 85,
+    "classification": "High Risk",
+    "category": "Electricity Scam",
+    "timestamp": "2026-09-20T18:04:01.393895"
+  },
+  {
+    "id": "rec-1789927439955",
+    "type": "message",
+    "title": "Power Disconnection Scare",
+    "preview": "Dear consumer your electricity power will be disconnected tonight at 9:30 PM fro...",
+    "riskScore": 85,
+    "classification": "High Risk",
+    "category": "Electricity Scam",
+    "timestamp": "2026-09-20T18:03:59.955238"
+  },
+  {
+    "id": "rec-1789927396339",
+    "type": "url",
+    "title": "High-Risk Top-Level Domain (.vip)",
+    "preview": "http://sbi-pan-kyc-verify.vip",
+    "riskScore": 99,
+    "classification": "High Risk",
+    "category": "Phishing / Link",
+    "timestamp": "2026-09-20T18:03:16.339381"
+  },
+  {
+    "id": "rec-1789927391593",
+    "type": "url",
+    "title": "Credential Harvesting Lures (secure, apk)",
+    "preview": "http://jio-5g-upgrade-secure.apk",
+    "riskScore": 45,
+    "classification": "Suspicious",
+    "category": "Phishing / Link",
+    "timestamp": "2026-09-20T18:03:11.593751"
+  },
+  {
+    "id": "rec-1789927388412",
+    "type": "url",
+    "title": "Legitimate Institutional Domain",
+    "preview": "https://onlinesbi.sbi",
+    "riskScore": 10,
+    "classification": "Safe",
+    "category": "Phishing / Link",
+    "timestamp": "2026-09-20T18:03:08.412999"
+  },
+  {
+    "id": "rec-1789927386130",
+    "type": "url",
+    "title": "High-Risk Top-Level Domain (.vip)",
+    "preview": "http://sbi-pan-kyc-verify.vip",
+    "riskScore": 99,
+    "classification": "High Risk",
+    "category": "Phishing / Link",
+    "timestamp": "2026-09-20T18:03:06.131572"
+  },
+  {
+    "id": "rec-1789927032546",
+    "type": "message",
+    "title": "High-Risk Disposable Phishing Domain",
+    "preview": "Your UPI account will be blocked today. Complete KYC immediately using this link...",
+    "riskScore": 67,
+    "classification": "Suspicious",
+    "category": "SMS / Chat",
+    "timestamp": "2026-09-20T17:57:12.546357"
+  },
+  {
+    "id": "rec-1789926954468",
+    "type": "qr",
+    "title": "Reverse-Debit 'Scan to Receive' Trap Detected",
+    "preview": "upi://pay?pa=cashback-officer@okaxis&pn=RefundDesk&am=4999&cu=INR",
+    "riskScore": 99,
+    "classification": "High Risk",
+    "category": "UPI Payment",
+    "timestamp": "2026-09-20T17:55:54.468010"
+  },
+  {
+    "id": "rec-1789926954443",
+    "type": "url",
+    "title": "High-Risk Top-Level Domain (.vip)",
+    "preview": "http://sbi-pan-kyc-verify.vip",
+    "riskScore": 99,
+    "classification": "High Risk",
+    "category": "Phishing / Link",
+    "timestamp": "2026-09-20T17:55:54.443468"
+  },
+  {
+    "id": "rec-1789926954428",
+    "type": "message",
+    "title": "Verified Bank / Merchant Transaction Notification",
+    "preview": "Sent Rs 450.00 from HDFC Bank A/c XX4019 to Swiggy via UPI Ref No 429104928172. ...",
+    "riskScore": 10,
+    "classification": "Safe",
+    "category": "Genuine Transaction",
+    "timestamp": "2026-09-20T17:55:54.428109"
+  },
+  {
+    "id": "rec-1789926954388",
+    "type": "message",
+    "title": "Power Disconnection Scare",
+    "preview": "Dear consumer your electricity power will be disconnected tonight at 9:30 PM fro...",
+    "riskScore": 85,
+    "classification": "High Risk",
+    "category": "Electricity Scam",
+    "timestamp": "2026-09-20T17:55:54.388561"
+  },
+  {
+    "id": "rec-1789897854007",
+    "type": "qr",
+    "title": "Reverse-Debit 'Scan to Receive' Trap Detected",
+    "preview": "upi://pay?pa=cashback-officer@okaxis&pn=RefundDesk&am=4999&cu=INR",
+    "riskScore": 99,
+    "classification": "High Risk",
+    "category": "UPI Payment",
+    "timestamp": "2026-09-20T09:50:54.007717"
+  },
+  {
+    "id": "rec-1789897853978",
+    "type": "url",
+    "title": "High-Risk Top-Level Domain (.vip)",
+    "preview": "http://sbi-pan-kyc-verify.vip",
+    "riskScore": 99,
+    "classification": "High Risk",
+    "category": "Phishing / Link",
+    "timestamp": "2026-09-20T09:50:53.978912"
+  },
+  {
+    "id": "rec-1789897853952",
+    "type": "message",
+    "title": "Verified Bank / Merchant Transaction Notification",
+    "preview": "Sent Rs 450.00 from HDFC Bank A/c XX4019 to Swiggy via UPI Ref No 429104928172. ...",
+    "riskScore": 5,
+    "classification": "Safe",
+    "category": "Genuine Transaction",
+    "timestamp": "2026-09-20T09:50:53.952225"
+  },
+  {
+    "id": "rec-1789897853913",
+    "type": "message",
+    "title": "Power Disconnection Scare",
+    "preview": "Dear consumer your electricity power will be disconnected tonight at 9:30 PM fro...",
+    "riskScore": 85,
+    "classification": "High Risk",
+    "category": "Electricity Scam",
+    "timestamp": "2026-09-20T09:50:53.913741"
+  },
+  {
+    "id": "rec-init-1",
+    "type": "message",
+    "title": "Power Disconnection Scare",
+    "preview": "Dear consumer your electricity power will be disconnected tonight at 9:30 PM...",
+    "riskScore": 92,
+    "classification": "High Risk",
+    "category": "Electricity Scam",
+    "timestamp": "2026-09-20T09:49:59.319908"
+  },
+  {
+    "id": "rec-init-2",
+    "type": "url",
+    "title": "Brand Impersonation & Typosquatting (SBI)",
+    "preview": "http://sbi-pan-kyc-verify.vip",
+    "riskScore": 99,
+    "classification": "High Risk",
+    "category": "Phishing / Link",
+    "timestamp": "2026-09-20T09:49:59.319908"
+  },
+  {
+    "id": "rec-init-3",
+    "type": "message",
+    "title": "Verified Bank Transaction Notification",
+    "preview": "Sent Rs 450.00 from HDFC Bank A/c XX4019 to Swiggy via UPI Ref No 429104928172...",
+    "riskScore": 12,
+    "classification": "Safe",
+    "category": "SMS / Chat",
+    "timestamp": "2026-09-20T09:49:59.319908"
+  }
+]

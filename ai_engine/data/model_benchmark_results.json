@@ -1,0 +1,54 @@
+{
+  "champion_model": "LogisticRegression",
+  "evaluation_metric": "Stratified 5-Fold F1",
+  "models": {
+    "MultinomialNB": {
+      "best_params": {
+        "clf__alpha": "0.05",
+        "tfidf__ngram_range": "(1, 2)"
+      },
+      "cross_val_f1": 0.9126,
+      "holdout_accuracy": 0.9866,
+      "holdout_precision": 0.9771,
+      "holdout_recall": 0.9209,
+      "holdout_f1": 0.9481,
+      "holdout_roc_auc": 0.9953
+    },
+    "ComplementNB": {
+      "best_params": {
+        "clf__alpha": "1.0",
+        "tfidf__ngram_range": "(1, 2)"
+      },
+      "cross_val_f1": 0.8805,
+      "holdout_accuracy": 0.9818,
+      "holdout_precision": 0.9167,
+      "holdout_recall": 0.9496,
+      "holdout_f1": 0.9329,
+      "holdout_roc_auc": 0.991
+    },
+    "LogisticRegression": {
+      "best_params": {
+        "clf__C": "5.0",
+        "clf__class_weight": "balanced",
+        "tfidf__ngram_range": "(1, 2)"
+      },
+      "cross_val_f1": 0.9186,
+      "holdout_accuracy": 0.9885,
+      "holdout_precision": 0.9635,
+      "holdout_recall": 0.9496,
+      "holdout_f1": 0.9565,
+      "holdout_roc_auc": 0.9986
+    },
+    "CalibratedLinearSVC": {
+      "best_params": {},
+      "cross_val_f1": 0.929,
+      "holdout_accuracy": 0.9876,
+      "holdout_precision": 0.9846,
+      "holdout_recall": 0.9209,
+      "holdout_f1": 0.9517,
+      "holdout_roc_auc": 0.9992
+    }
+  },
+  "training_samples": 4182,
+  "holdout_samples": 1046
+}

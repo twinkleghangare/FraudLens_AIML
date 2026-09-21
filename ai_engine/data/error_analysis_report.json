@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "total_evaluated": 1046,
+    "false_positive_count": 2,
+    "false_negative_count": 6,
+    "false_positive_rate": 0.0022,
+    "false_negative_rate": 0.0432,
+    "specificity": 0.9978,
+    "sensitivity": 0.9568
+  },
+  "failure_taxonomy": [
+    {
+      "failure_type": "False Positive",
+      "frequency": 2,
+      "primary_cause": "Promotional or legitimate customer service SMS containing urgency words (e.g. 'call now', 'important')",
+      "remediation": "Multi-Factor Rule Engine attenuates risk if verified masked bank account or legitimate merchant code is detected."
+    },
+    {
+      "failure_type": "False Negative",
+      "frequency": 6,
+      "primary_cause": "Ultra-short SMS (<10 words) or camouflaged URLs without overt keyword triggers",
+      "remediation": "Dedicated Heuristic NLP & URL Typosquatting engines override pure ML when disposable TLDs or UPI intent protocols are parsed."
+    }
+  ],
+  "sampled_false_positives": [
+    {
+      "text": "Paytm Bank: Rs 150 added to your wallet via UPI. Updated wallet balance is Rs 1,240.00.",
+      "predicted_prob": 0.5519,
+      "cause": "Lexical overlap with promotional spam terminology"
+    },
+    {
+      "text": "Did u receive my msg?",
+      "predicted_prob": 0.5361,
+      "cause": "Lexical overlap with promotional spam terminology"
+    }
+  ],
+  "sampled_false_negatives": [
+    {
+      "text": "Sorry I missed your call let's talk when you have the time. I'm on 07090201529",
+      "predicted_prob": 0.4348,
+      "cause": "Short text ambiguity or novel phrasing absent from training n-grams"
+    },
+    {
+      "text": "thesmszone.com lets you send free anonymous and masked messages..im sending this message from there..do you see the potential for abuse???",
+      "predicted_prob": 0.3136,
+      "cause": "Short text ambiguity or novel phrasing absent from training n-grams"
+    },
+    {
+      "text": "Babe: U want me dont u baby! Im nasty and have a thing 4 filthyguys. Fancy a rude time with a sexy bitch. How about we go slo n hard! Txt XXX SLO(4msgs)",
+      "predicted_prob": 0.0722,
+      "cause": "Short text ambiguity or novel phrasing absent from training n-grams"
+    },
+    {
+      "text": "Block Breaker now comes in deluxe format with new features and great graphics from T-Mobile. Buy for just \u00c2\u00a35 by replying GET BBDELUXE and take the challenge",
+      "predicted_prob": 0.3738,
+      "cause": "Short text ambiguity or novel phrasing absent from training n-grams"
+    },
+    {
+      "text": "Dear gas consumer, your IGL PNG gas pipeline will be disconnected in 2 hours. Clear dues of Rs 450 by sending UPI to gasofficer@upi.",
+      "predicted_prob": 0.4958,
+      "cause": "Short text ambiguity or novel phrasing absent from training n-grams"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "dataset_total": 5228,
+  "total_scam": 697,
+  "total_safe": 4531,
+  "scam_percentage": 13.33,
+  "char_length": {
+    "scam_mean": 137.59,
+    "scam_median": 147.0,
+    "safe_mean": 71.3,
+    "safe_median": 53.0
+  },
+  "word_count": {
+    "scam_mean": 23.45,
+    "safe_mean": 14.29
+  },
+  "digit_count": {
+    "scam_mean": 14.71,
+    "safe_mean": 0.36
+  },
+  "url_rate": {
+    "scam_url_percentage": 16.79,
+    "safe_url_percentage": 0.4
+  },
+  "phone_rate": {
+    "scam_phone_percentage": 46.34,
+    "safe_phone_percentage": 0.02
+  },
+  "top_scam_keywords": [
+    [
+      "call",
+      310
+    ],
+    [
+      "free",
+      193
+    ],
+    [
+      "now",
+      168
+    ],
+    [
+      "txt",
+      132
+    ],
+    [
+      "stop",
+      111
+    ],
+    [
+      "mobile",
+      109
+    ],
+    [
+      "text",
+      108
+    ],
+    [
+      "claim",
+      98
+    ],
+    [
+      "reply",
+      96
+    ],
+    [
+      "this",
+      84
+    ],
+    [
+      "www",
+      81
+    ],
+    [
+      "prize",
+      80
+    ],
+    [
+      "get",
+      73
+    ],
+    [
+      "only",
+      68
+    ],
+    [
+      "are",
+      68
+    ]
+  ]
+}
