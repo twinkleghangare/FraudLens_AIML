@@ -1,3 +1,4 @@
+![Uploading image.png…]()
 # FraudLens
 
 ## AI-Powered UPI Scam Detection & Risk Analysis System
