@@ -1,4 +1,5 @@
-[Uploading image.png…]()
+<img width="956" height="436" alt="Screenshot 2026-09-21 212520" src="https://github.com/user-attachments/assets/e6e6c57a-1939-468b-82d8-2f3c63304dc4" />
+
 # FraudLens
 
 ## AI-Powered UPI Scam Detection & Risk Analysis System
