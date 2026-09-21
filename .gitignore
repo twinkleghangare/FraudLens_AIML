@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+dist/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Runtime data (user-generated audit history)
+backend/services/history.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Python cache & temporary artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+ai_engine/**/__pycache__/
+scratch/
